@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  
+  <title>new account</title>
+  <link rel="stylesheet" href="kanerika.css"></link>
+  <script src="kanerika.js"></script>
+ </head>
+ <body><center>
+  <form>
+  <div id="div4">
+ <h2 style="color:blue;"> fill the below details to create new account</h2>
+   <label style="font-size:20px;">full name:</label>
+ <input type="text" style="font-size:15px;" id="i5"></input><br></br>
+  <label style="font-size:20px;">email-id:</label>
+ <input type="text" style="font-size:15px;" id="i6"></input><br></br>
+  <label style="font-size:20px;">mobile-no:</label>
+ <input type="text" style="font-size:15px;" id="i7"></input><br></br>
+  <label style="font-size:20px;">address:</label>
+ <input type="text" style="font-size:15px;" id="i8"></input><br></br>
+  
+ <input type="submit" style="font-size:15px; background-color:green;color:white;" id="i9" value="create"></input><br></br>
+
+
+
+  
+  
+  
+  </div>
+  </form></center>
+ </body>
+</html>

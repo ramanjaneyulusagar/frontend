@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  
+  <title>service</title>
+  <link rel="stylesheet" href="kanerika.css"></link>
+  <link rel="icon" href="vavicon.ico"></link>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+  <script src="kanerika.js"></script>
+ </head>
+ <body><form>
+  <div id="div5">
+ <input type="submit"value="kanerika" style="font-size:25px;font-weight:bold;margin-left:20px;margin-bottom:0px;font-family:cursive; border:none;background-color:orange;" onclick="click()"></input>
+  <b style="color:white;margin-left:50px;">KANERIKA SOFTWARE PRIVATE LIMITED</b>
+  <b id="demo" style="color:white;margin-left:50px;"></b>
+ <a href="kanerikapage.html"><i class="fa fa-jedi " style="font-size:25px; margin-left:40px"></i>
+ <b>homepage</b></a>
+  <img src="IMG_0010.JPG" id="img1" style="position:sticky;"></img>
+  </div>
+  <div id="subdiv">
+   <input type="search" value="search..." style="border:solid 2px orange;border-radius:10px 10px 10px 10px ; margin:10px  "></input>
+   <hr></hr>
+  <a href="Service.html"> <label><i class="fa fa-house-user"   style="margin-right:10px;"></i>Service <input type="button"value=">" style="font-size:25px;margin-left:20px; border:none;background-color:transparent;"></input></label>  </a>
+   <hr></hr>
+    <a href="Leave.html"> <label><i class="fa fa-book"  style="margin-right:10px;"></i>Leave
+	 <input type="button"value=">" style="font-size:25px;margin-left:20px; border:none;background-color:transparent;"></input></label></a>
+	 <hr></hr>
+	  <a href="Time.html"> <label><i class="fa fa-business-time"  style="margin-right:10px;"></i>Time<input type="button"value=">" style="font-size:25px;margin-left:20px; border:none;background-color:transparent;"></input></label></a>
+	   <hr></hr>
+       <a href="Claims.html"> <label><i class="fa fa-exclamation" style="margin-right:10px;"></i>Claims<input type="button"value=">" style="font-size:25px;margin-left:20px; border:none;background-color:transparent;"></input></label></a>
+		<hr></hr>
+	   <a href="PMS.html">  <label><i class="fa fa-trophy" style="margin-right:10px;"></i>PMS<input type="button"value=">" style="font-size:25px;margin-left:20px; border:none;background-color:transparent;"></input></label></a>
+		 <hr></hr>
+		<a href="Recruitment.html"> <label><i class="fa fa-user-graduate" style="margin-right:10px;"></i>Recruitment<input type="button"value=">" style="font-size:25px;margin-left:20px; border:none;background-color:transparent;"></input></label></a>
+
+   </div>
+   
+    <div style="background-color:beige;width:1000px;height:500px;float:right; margin-top:10px; position:relative;">
+   <h1>welcome to service page</h1>
+     <a href="R.html"> <h3><i class="fa fa-eye" style="margin-left:10px;margin-right:10px;"></i>view<br></br></h3></a>
+	 <h4>
+	 <b><a href="R.html">employement</b> |<b><a href="R.html"> contact </b> | <b> <a href="R.html">personal </b><br></br>
+	 <b> <a href="R.html">satatutory </b> | <b> <a href="R.html">bank </b> | <b>family</b><br></br>
+	 <b> <a href="R.html">nominee </b> | <b><a href="R.html"> imigration </b> | <b> <a href="R.html">driving licenses</b><br></br>
+	 
+	 </h4>
+	  <a href="uitment.html"> <h3><i class="fa	fa-nfc-pen"></i>edit</h3>
+	   <a href="cruitment.html"> <h3>salary</h3>
+		<a href="Recruint.html"> <h3>taxation </h3>
+		<a href="Recrunt.html">  <h3>quick info</h3>
+
+
+
+
+   </div>
+  <div id="footer1">
+  <p style="text-align:center;padding-top:30px; "><b>copy right 2021 spine technologies india private limited</b></p>
+  
+  </div>
+ </form></body>
+</html>

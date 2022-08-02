@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.div1,.div3{
+position:relative,fixed;
+width:100%;
+height:100px;
+background-color:beige;
+}
+.div3{
+bottom:0;
+position:sticky;
+
+}
+.div1{
+top:0;
+position:sticky;	
+}
+
+#div2{
+width:auto;
+height:1000px;
+
+margin:0 auto;
+}
+
+
+
+
+</style>
+</head>
+<body>
+<form>
+<div class="div1"></div>
+<div id="div2">
+
+<div>hello <input type="range"></input></div>
+
+
+<iframe src="kanerikapage.html" style="width:1000px;"></iframe>
+
+
+
+</div>
+<div class="div3"></div>
+</form>
+</body>
+</html>

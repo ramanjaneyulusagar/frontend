@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  
+  <title>password recovery</title>
+  <link rel="stylesheet" href="kanerika.css"></link>
+  <script src="kanerika.js"></script>
+ </head>
+ <body>
+ <form><center>
+ <div id="div3">
+    <h1 style="color:blue;">to retrive your password please
+	enter your mobile no</h1 >
+ <br></br>
+ <label style="font-size:20px;">mobile-no</label>
+ <input type="number" style="font-size:15px;" id="i3"></input><br></br>
+ <input type="submit" id="i4" value="retrive"   style="background-color:green;color:white;font-size:15px;" onclick="get()"></input>
+ 
+ </div>
+ <h4 id="h1"></h4><center>
+ 
+
+ 
+ 
+ 
+ 
+ 
+ </form>
+ </body>
+</html>

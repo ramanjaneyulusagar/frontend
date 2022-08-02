@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  
+  <title>kanerika</title>
+ 
+  <link rel="stylesheet" href="kanerika.css"></link>
+  <link rel="icon" href="vavicon.ico"></link>
+  <script src="kanerika.js"></script>
+ </head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+ <body style="background-color:beige;">
+ 
+  <form>
+  <div id="div5">
+ <input type="submit"value="kanerika" style="font-size:25px;font-weight:bold;margin-left:20px;margin-bottom:0px;font-family:cursive; border:none;background-color:orange;" onclick="click()"></input>
+  <b style="color:white;margin-left:50px;">KANERIKA SOFTWARE PRIVATE LIMITED</b>
+  <b id="demo" style="color:white;margin-left:50px;"></b>
+ <a href="kanerikapage.html"> <i class="fa fa-jedi " style="font-size:25px; margin-left:40px"></i>
+      <b>homepage</b></a>
+  <img src="IMG_0010.JPG" id="img1"></img>
+  </div>
+
+  <div id="maindiv">
+
+   <div id="subdiv">
+   <input type="search" value="search..." style="border:solid 2px orange;border-radius:10px 10px 10px 10px ; margin:10px  "></input>
+   <hr></hr>
+  <a href="Service.html"> <label><i class="fa fa-house-user"   style="margin-right:10px;"></i>Service <input type="button"value=">" style="font-size:25px;margin-left:20px; border:none;background-color:transparent;"></input></label>  </a>
+   <hr></hr>
+     <a href="Leave.html"> <label><i class="fa fa-book"  style="margin-right:10px;"></i>Leave
+	 <input type="button"value=">" style="font-size:25px;margin-left:20px; border:none;background-color:transparent;"></input></label>
+	 <hr></hr>
+	  <a href="Time.html"> <label><i class="fa fa-business-time"  style="margin-right:10px;"></i>Time<input type="button"value=">" style="font-size:25px;margin-left:20px; border:none;background-color:transparent;"></input></label></a>
+	   <hr></hr>
+        <a href="Claims.html"><label><i class="fa fa-exclamation" style="margin-right:10px;"></i>Claims<input type="button"value=">" style="font-size:25px;margin-left:20px; border:none;background-color:transparent;"></input></label></a>
+		<hr></hr>
+	   <a href="PMS.html">  <label><i class="fa fa-trophy" style="margin-right:10px;"></i>PMS<input type="button"value=">" style="font-size:25px;margin-left:20px; border:none;background-color:transparent;"></input></label></a>
+		 <hr></hr>
+		 <a href="Recruitment.html"><label><i class="fa fa-user-graduate" style="margin-right:10px;"></i>Recruitment<input type="button"value=">" style="font-size:25px;margin-left:20px; border:none;background-color:transparent;"></input></label></a>
+
+   </div>
+   <div style="color:black;background-color:;width:690px;height:500px;float:right;">
+   <h1 style="background-color:beige;">welcome to kanerika</h1>
+   
+   <div style="background-color:transparent;width:150px;height:250px;display:inline-block; ">
+   
+   <b style="background-color:beige;">today's thought</b>
+   <h6><img src="download.jpg"style="width:100px; margin-left:10px;" id="tm1"></img></h6>
+  </div>
+   <div   style="background-color:transparent;width:330px;height:300px;display:inline-table;float:right; ">
+   <b style="background-color:lightblue;">birthday's today</b>
+   
+   <h1>no ones birthdays today</h1>
+   <hr></hr>
+   <h1>our motive</h1>
+   <b style="background-color:lightblue;">We’re driven to make your
+enterprise more efficient.</b>
+We solve complex business problems with a focus and
+commitment towards customer’s success. Our passion for
+innovation reflects in our thinking and solutions we build
+for our customers. We uphold integrity in everything we
+do. Our hunger for continuous learning empowers us in
+delivering technology solutions that enable enterprises in
+becoming more efficient.
+<hr></hr>
+   </div>
+
+ <marquee scrollamount="30">  <img src="images.jpg"style="width:200px; margin-left:10px;" id="tm1"></img></marquee>
+   </div>
+   
+   </div>
+   
+  </div>
+  <div id="footer1">
+  <p style="text-align:center;padding-top:30px; "><b>copy right 2021 spine technologies india private limited</b></p>
+  
+  </div>
+  
+  
+ 
+  
+  </form>
+  <script>
+// Set the date we're counting down to
+var countDownDate = new Date("Jan 7, 2024 15:40:25").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+    
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+    
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  // Output the result in an element with id="demo"
+  document.getElementById("demo").innerHTML = days+"d"+hours+"h"+ minutes + "m " + seconds + "s ";
+    
+  // If the count down is over, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "refresh ";
+  }
+}, 1000);
+
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("div5");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+
+</script>
+ </body>
+</html>
